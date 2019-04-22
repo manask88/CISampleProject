@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
+        // added a dumb comment thing here
         // added microsoft app center secret here. Normally, you don't want to expose this.
         AppCenter.start(
             application, "11f655f9-356e-4083-bbe6-9496354605d9",
